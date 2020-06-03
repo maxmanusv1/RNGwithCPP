@@ -22,7 +22,7 @@ int main()
 		{
 			int a = stoi(deger);
 			int sansimiz = 100 - a;
-
+			srand(time(0));
 			while (dondur == true)
 			{
 				int NumberGenerator = rand() % 100 + 1;
